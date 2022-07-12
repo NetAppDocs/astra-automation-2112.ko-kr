@@ -169,7 +169,7 @@
   
   <!-- Start Page Toolbar -->
   
-  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/astra-automation-2112/issues/new?body=Page%3A%20[시작하기 전에](https://docs.netapp.com/ko-kr/astra-automation-2112/python/python_before.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/astra-automation-2112/images/discuss-sm.svg" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/astra-automation-2112/blob/main/python/python_before.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/astra-automation-2112/images/edit-sm.svg" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/astra-automation-2112/images/article-sm.svg" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
+  <div class="page-nav-toolbar"><div class="page-nav-contribute"><a target="_blank" href="https://github.com/NetAppDocs/astra-automation-2112/issues/new?body=Page%3A%20[시작하기 전에](https://docs.netapp.com/ko-kr/astra-automation-2112/python/python_before.html)" class="page-nav-contribute-link" role="button"><img src="/ko-kr/astra-automation-2112/images/discuss-sm.svg" alt="" class="github-icon" />문서 변경 요청</a><a target="_blank" href="https://github.com/NetAppDocs/astra-automation-2112/blob/main/python/python_before.adoc" class="page-nav-contribute-link" role="button"><img src="/ko-kr/astra-automation-2112/images/edit-sm.svg" alt="" class="github-icon" />이 페이지 편집</a><a target="_blank" href="https://docs.netapp.com/us-en/contribute/" class="page-nav-contribute-link"  ><img src="/ko-kr/astra-automation-2112/images/article-sm.svg" alt="" class="github-icon" />기여하는 방법 자세히 알아보기</a></div>
     <div class="page-nav-container">
       <nav class="page-nav-fixed">
         <div class="page-nav-title">이 페이지의 내용</div>
@@ -258,11 +258,13 @@
           <div id="react-search" 
           data-search-html="/ko-kr/astra-automation-2112/search.html"
           data-type="widget" 
-          data-placeholder="설명서 검색" 
-          data-no-results-found="{query}에 대한 결과를 찾을 수 없음" 
-          data-did-you-mean="{suggestion}을(를) 검색해보십시오." 
-          data-no-results-found-did-you-mean="{query}에 대한 결과를 찾을 수 없습니다. {suggestion}을(를) 검색하려 하셨습니까?" 
-          data-results-found="{hitCount}개의 결과를 찾음"  
+          data-placeholder="설명서 검색"
+          data-no-results-found="{query}에 대한 결과를 찾을 수 없음"
+          data-did-you-mean="{suggestion}을(를) 검색해보십시오."
+          data-no-results-found-did-you-mean="{query}에 대한 결과를 찾을 수 없습니다. {suggestion}을(를) 검색하려 하셨습니까?"
+          data-results-found="{hitCount}개의 결과를 찾음"
+          data-error-message="We're sorry, an issue occurred when fetching your results. Please try again."
+          data-error-reset="Reset Search"
           data-sk-es-pf-indexes=""
           data-flavor=""></div>
           <button class="n-property-bar__search-toggle-button" type="button">
@@ -277,35 +279,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/astra-automation-2112/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/astra-automation-2112/python/python_before.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/astra-automation-2112/python/python_before.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/astra-automation-2112/python/python_before.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/astra-automation-2112/python/python_before.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/astra-automation-2112/python/python_before.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/astra-automation-2112/python/python_before.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/astra-automation-2112/python/python_before.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/astra-automation-2112/python/python_before.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/astra-automation-2112/python/python_before.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/astra-automation-2112/python/python_before.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -349,7 +343,7 @@
   <div class="col-md-3" id="sidebar-height">
       <div class="n-pdf-header">
   <a id="toggleButtonPdf" class="n-pdf-button" type="button">
-    <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>사용 가능한 PDF<span>
+    <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>사용 가능한 PDF<span>
     </span>
   </a>
 </div>
@@ -359,7 +353,7 @@
         
         
         <a target="_blank" href="/ko-kr/astra-automation-2112/pdfs/fullsite-sidebar/Astra_Control_Automation_21_12_문서.pdf" >
-          <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>이 문서 사이트의 PDF</a>
+          <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>이 문서 사이트의 PDF</a>
 
 
 
@@ -374,7 +368,7 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/릴리스_정보.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             릴리스 정보
           </a>
           
@@ -384,8 +378,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -407,7 +399,7 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/시작하십시오.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             시작하십시오
           </a>
           
@@ -419,8 +411,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -440,7 +430,7 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/핵심_REST_구현.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             핵심 REST 구현
           </a>
           
@@ -452,8 +442,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -473,7 +461,7 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/추가_REST_고려_사항.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             추가 REST 고려 사항
           </a>
           
@@ -483,8 +471,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -506,7 +492,7 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/인프라_워크플로우.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             인프라 워크플로우
           </a>
           
@@ -524,14 +510,12 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/ID_및_액세스.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             ID 및 액세스
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -551,14 +535,12 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/버킷.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             버킷
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -578,14 +560,12 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/스토리지.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             스토리지
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -605,14 +585,12 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/클러스터.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             클러스터
           </a>
           
 
 
-
-          
         </li>
       </ul>
     
@@ -620,8 +598,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -641,7 +617,7 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/관리_워크플로.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             관리 워크플로
           </a>
           
@@ -659,7 +635,7 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/애플리케이션_제어.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             애플리케이션 제어
           </a>
           
@@ -673,8 +649,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -694,7 +668,7 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/애플리케이션_보호.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             애플리케이션 보호
           </a>
           
@@ -710,8 +684,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -731,7 +703,7 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/앱_복제_및_복원.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             앱 복제 및 복원
           </a>
           
@@ -743,8 +715,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -764,7 +734,7 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/지원.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             지원
           </a>
           
@@ -772,8 +742,6 @@
 
 
 
-
-          
         </li>
       </ul>
     
@@ -781,8 +749,6 @@
   
 
 
-
-          
         </li>
       </ul>
     
@@ -802,7 +768,7 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/Python_사용.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             Python 사용
           </a>
           
@@ -820,25 +786,16 @@
               href="/ko-kr/astra-automation-2112/pdfs/sidebar/기본_Python.pdf" 
             
           >
-            <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
+            <img src="/ko-kr/astra-automation-2112/images/pdf.png" alt="" width="16" height="16"/>
             기본 Python
           </a>
           
-    <ul class="subfolders" style="display:none;"><li class="active pdf-hide">
-  <a target="_blank" href="/ko-kr/astra-automation-2112/pdfs/pages/python/python_before.pdf" >
-    <img src="/ko-kr/astra-automation-2112/images/pdf.png" width="16" height="16"/>
-    PDF of this page
-  </a>
-</li>
-
-</ul>
+    <ul class="subfolders" id="pdf-remove" style="display:none;"><li class="active"></li></ul>
   
 
 
 
 
-
-          
         </li>
       </ul>
     
@@ -846,14 +803,11 @@
   
 
 
-
-          
         </li>
       </ul>
     
 
   
-
 
 
 
@@ -866,7 +820,7 @@
 </li></ul>
   <div class="zip-pdf-link-container" style="display: none;">   
     <a href="#" id="zipPdf">
-      <img src="/ko-kr/astra-automation-2112/images/pdf-zip.png" width="16" height="16"/>
+      <img src="/ko-kr/astra-automation-2112/images/pdf-zip.png" alt="" width="16" height="16"/>
       <pre>별도의 PDF 문서 모음<span class="zip-size"></span></pre>
     </a><div id="zip-link-popup" class="hide">
     <div class="inner-modal">
@@ -899,7 +853,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/ko-kr/astra-automation-2112/index.html">
         Astra Control Automation 21.12 문서
       </a></li><li class="subfolders "><a href="#">
@@ -1103,7 +1057,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-24 23:51:48 +0000">04/24/2022</time>
+    <time datetime="2022-07-12 11:11:31 +0000">07/12/2022</time>
     
   
 
@@ -1135,29 +1089,17 @@ Python을 사용하여 Astra Control REST API에 직접 액세스하는 것 외�
 <div class="paragraph">
 <p>Python 스크립트를 실행하기 위한 기본 구성 요구 사항은 아래에 설명되어 있습니다.</p>
 </div>
-<div class="sect4">
-<h5 id="python-3">Python 3</h5>
 <div class="paragraph">
 <p>최신 버전의 Python 3이 설치되어 있어야 합니다.</p>
 </div>
-</div>
-<div class="sect4">
-<h5 id="추가-라이브러리">추가 라이브러리</h5>
 <div class="paragraph">
 <p>Requests* 및 * urlllllib3* 라이브러리가 설치되어 있어야 합니다. PIP 또는 다른 Python 관리 도구를 환경에 맞게 사용할 수 있습니다.</p>
 </div>
-</div>
-<div class="sect4">
-<h5 id="네트워크-액세스">네트워크 액세스</h5>
 <div class="paragraph">
 <p>스크립트가 실행되는 워크스테이션에는 네트워크 액세스 권한이 있어야 하며 Astra Control에 연결할 수 있어야 합니다. Astra Control Service를 사용할 때는 인터넷에 연결되어 있어야 하며, <a href="https://astra.netapp.io`" class="bare">https://astra.netapp.io`</a> 에 있는 서비스에 연결할 수 있어야 합니다.</p>
 </div>
-</div>
-<div class="sect4">
-<h5 id="id-정보">ID 정보</h5>
 <div class="paragraph">
 <p>계정 ID와 API 토큰을 가진 유효한 Astra 계정이 필요합니다. 을 참조하십시오 <a href="../get-started/get_api_token.html">"API 토큰을 가져옵니다"</a> 를 참조하십시오.</p>
-</div>
 </div>
 </div>
 </div>
@@ -1179,8 +1121,6 @@ Python을 사용하여 Astra Control REST API에 직접 액세스하는 것 외�
 </tr>
 </table>
 </div>
-<div class="sect4">
-<h5 id="id-정보-2">ID 정보</h5>
 <div class="paragraph">
 <p>다음 파일에는 API 토큰과 Astra 계정이 포함되어 있습니다. '-i'(또는 '--identity') CLI 매개변수를 사용하여 이 파일을 Python 스크립트로 전달해야 합니다.</p>
 </div>
@@ -1190,7 +1130,6 @@ Python을 사용하여 Astra Control REST API에 직접 액세스하는 것 외�
   "api_token": "kH4CA_uVIa8q9UuPzhJaAHaGlaR7-no901DkkrVjIXk=",
   "account_id": "5131dfdf-03a4-5218-ad4b-fe84442b9786"
 }</code></pre>
-</div>
 </div>
 </div>
 </div>
@@ -1341,4 +1280,5 @@ Python을 사용하여 Astra Control REST API에 직접 액세스하는 것 외�
     </script>
     <script src='/ko-kr/astra-automation-2112/js/www-ntap.js'></script>
     <script src='/ko-kr/astra-automation-2112/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/astra-automation-2112/js/sidebar.js'></script>
   </body></html>
