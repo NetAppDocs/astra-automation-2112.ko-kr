@@ -3,8 +3,6 @@
   <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
   <block id="916bff7b68625feaff0fa92152a8c4f0" category="doc">URL 형식</block>
   <block id="94fd56b370187429c8fbd312f50f5c1b" category="paragraph">REST API를 통해 리소스 인스턴스 또는 컬렉션에 액세스하는 데 사용되는 URL의 일반 구조는 여러 값으로 구성됩니다. 이 구조체는 기본 개체 모델 및 시스템 설계를 반영합니다.</block>
-  <block id="04af7c5cae35340b12ac2ff18f2993fb" category="section-title">URL의 형식입니다</block>
-  <block id="3e0ab85384ebe4f846202e772b341dc5" category="paragraph">URL의 형식과 예제가 아래에 나와 있습니다.</block>
   <block id="6e84a7dae5ae82dd22a0ec6f456dbc8d" category="section-title">root로 계정을 지정합니다</block>
   <block id="e166d573b25ce4160633b91145d1eae5" category="paragraph">모든 REST 끝점에 대한 리소스 경로의 루트는 Astra 계정입니다. 따라서 URL의 모든 경로는 "/account/{account_id}"로 시작합니다. 여기서 "account_id"는 계정에 대한 고유한 UUIDv4 값입니다. 내부 구조 모든 리소스 액세스가 특정 계정을 기반으로 하는 설계를 반영합니다.</block>
   <block id="faf17fd8415851163c880ffe0eee8b37" category="section-title">끝점 리소스 범주입니다</block>
@@ -293,7 +291,6 @@
   <block id="78ceba6718263592394adb03dc11471c" category="paragraph">Astra Control REST API와 관련된 현재 릴리즈에 대해 알려진 모든 문제를 검토해야 합니다. 알려진 문제는 제품을 성공적으로 사용하지 못하게 만들 수 있는 문제를 식별합니다.</block>
   <block id="f977fda19bbfe49b9346f60f532f0704" category="section-title">백엔드 스토리지 노드의 모든 스토리지 디바이스가 검색되지 않습니다</block>
   <block id="13595bcf3f8022567de41bcd09ef92b2" category="paragraph">스토리지 노드에 정의된 스토리지 디바이스를 검색하기 위해 REST API 호출을 실행하면 Astra Data Store 디바이스만 검색됩니다. 일부 장치는 반환되지 않습니다.</block>
-  <block id="fd341dfea170932946910997510c48e8" category="section-title">Astra Data Store 스토리지 백엔드가 알 수 없는 상태입니다</block>
   <block id="e1c83179f57e62cb00fbb2646ef58e6e" category="paragraph">Astra Data Store 스토리지 백엔드는 API 호출을 통해 스토리지 백엔드를 검색한 후 '알 수 없음' 상태에 있습니다. 이 상태에서는 스토리지 백엔드를 계속 사용할 수 있으며 와 통신할 수 있습니다. 그러나 스토리지 백엔드 내의 구성 요소는 상태가 좋지 않을 수 있으므로 스토리지 백엔드가 "사용 가능"으로 표시되도록 정상 상태로 되돌려주어야 합니다.</block>
   <block id="c93cc787737ceea532bea714170e32cf" category="doc">Astra Control REST API의 새로운 기능</block>
   <block id="b0c0f8ac8f671541655d3d0e2beb2ce8" category="paragraph">NetApp은 새로운 기능, 개선 사항 및 버그 수정을 제공하기 위해 Astra Control REST API를 정기적으로 업데이트합니다.</block>
@@ -861,4 +858,7 @@
   <block id="35ddd64ed03dd1579ce39e6e82ff721f" category="sidebar">추가 REST 고려 사항</block>
   <block id="36b64aad8a26246fe3ad4116a2b6f289" category="sidebar">진단</block>
   <block id="f05754a1ff0413a18fba9fcecbf43b4d" category="sidebar">API 토큰을 가져오는 중입니다</block>
+  <block id="bbe48fb854ea022537208eeeff822f91" category="paragraph-title">이 작업에 대해</block>
+  <block id="bd965e38a0c9cf27aa1bde099308e23f" category="paragraph-title">작업을 마친 후</block>
+  <block id="02888730c53ce06848a227c66075dfd4" category="section-title">Astra Data Store 스토리지 백엔드는 에 있습니다<block ref="88183b946cc5f0e8c96b2e66e1c74a7e" prefix=" " category="inline-code"></block> 상태</block>
 </blocks>
